@@ -1,0 +1,13 @@
+.main {
+    background: #fff !important;
+}
+.des-image {
+    height: 200px;
+}
+.des-image img {
+    height: 100%;
+    object-fit: cover;
+}
+.table {
+    background: #fff !important;
+}

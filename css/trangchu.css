@@ -1,0 +1,98 @@
+
+.list-product {
+    display: grid !important;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.list-product .product-item{
+    padding: 10px;
+}
+.list-product .product-item:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 11;
+}
+.list-product .product-item .product-image img  {
+    width: 100%;
+    object-fit:  cover;
+}
+.list-product .product-item  {
+    font-size: 13px;
+    text-align: center;
+}
+
+.list-product .product-item .product-name {
+    font-weight: bold;
+}
+.list-product .product-item .price {
+    color: red;
+}
+.navbar-bottom ul li {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
+.navbar-bottom ul li i {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #fff;
+    color: #f0c418;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+nav .phone-number ul,
+nav .tuvan ul {
+    margin-bottom: 0!important;
+}
+
+nav .icon i {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #fff;
+    color: #546ce8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.sidebar {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.sidebar ul li {
+    margin-bottom: 0 !important;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.sidebar ul li a {
+    margin-left: 20px;
+}
+.sidebar ul li:hover {
+    background-color: #0d6efd;
+    
+}
+.sidebar ul li:hover a, 
+.sidebar ul li:hover i {
+    color: white;
+}
+.all-banner {
+    display: flex;
+}
+.banner {
+    width: 43%;
+}
+.banner .right-banner .banner-item {
+    margin: 10px;
+}
+.banner-bottom {
+    display: flex;
+}
+.banner-bottom .banner-item {
+    width: 33%;
+    margin: 5px;
+}
+.image-banner {
+    height: 200px;
+}

@@ -1,0 +1,13 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    font-size: 14px;
+}
+.product-list .product-name {
+    font-weight: bold;
+}
+.product-list .price {
+    color: red;
+    font-weight: bold;
+}
